@@ -15,4 +15,9 @@
       <module name="spring_app1 (1)" target="1.7" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java_scratches" options="--add-modules java.base" />
+    </option>
+  </component>
 </project>
